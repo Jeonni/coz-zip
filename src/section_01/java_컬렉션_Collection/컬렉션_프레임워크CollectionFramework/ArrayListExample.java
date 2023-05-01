@@ -2,6 +2,14 @@ package section_01.java_컬렉션_Collection.컬렉션_프레임워크Collection
 
 import java.util.ArrayList;
 
+/*
+    ArrayList
+    - 객체가 인덱스로 관리된다는 점에 배열과 유사
+    - 배열의 크기 자동으로 설정
+    - 데이터가 연속적으로 존재
+    - 특정 인덱스 제거 시, 바로 뒤 인덱스부터 마지막 인덱스까지 1씩 앞당겨짐
+    - 빈번한 객체 삭제, 삽입 일어날 시엔 LinkedList 사용이 적합
+ */
 public class ArrayListExample {
     public static void main(String[] args) {
         // ArrayList 생성하여 list에 할당
