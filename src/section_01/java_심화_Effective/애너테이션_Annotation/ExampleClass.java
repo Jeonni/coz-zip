@@ -1,4 +1,4 @@
-package section_01.java_심화_Effective;
+package section_01.java_심화_Effective.애너테이션_Annotation;
 
 /*
     오버로딩
@@ -14,7 +14,7 @@ package section_01.java_심화_Effective;
     - 컴파일러 또는 다른 프로그램에 필요한 정보 제공
  */
 
-public class ExampleClass implements ExampleInterface{
+public class ExampleClass implements ExampleInterface {
 
     @Override // 상위 클래스의 메서드를 오버라이딩한 메서드임을 컴파일러에게 알려줌
     public void example() {}

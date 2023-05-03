@@ -1,4 +1,4 @@
-package section_01.java_심화_Effective;
+package section_01.java_심화_Effective.람다_Lambda;
 
 import java.util.function.IntBinaryOperator;
 
@@ -7,6 +7,8 @@ import java.util.function.IntBinaryOperator;
     - 불필요한 매개변수를 제거할 때 주로 사용
     - 람다식으로 간단해진 익명 객체를 더욱 간단히 사용하기 위함
  */
+
+// Calculator.java - MethodReferences.java
 public class MethodReferences {
     public static void main(String[] args) {
         IntBinaryOperator operator;

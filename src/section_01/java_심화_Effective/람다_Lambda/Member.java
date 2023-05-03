@@ -1,5 +1,6 @@
-package section_01.java_심화_Effective;
+package section_01.java_심화_Effective.람다_Lambda;
 
+// Member.java - ConstructorRef.java
 public class Member {
     private String name;
     private String id;

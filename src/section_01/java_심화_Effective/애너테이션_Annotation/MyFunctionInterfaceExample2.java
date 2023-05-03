@@ -1,4 +1,4 @@
-package section_01.java_심화_Effective;
+package section_01.java_심화_Effective.애너테이션_Annotation;
 
 // 매개변수가 있는 람다식 (리턴값은 없음)
 public class MyFunctionInterfaceExample2 {

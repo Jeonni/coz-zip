@@ -1,4 +1,4 @@
-package section_01.java_심화_Effective;
+package section_01.java_심화_Effective.람다_Lambda;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
@@ -16,6 +16,8 @@ import java.util.function.Function;
     - 컴파일러는 함수형 인터페이스의 추상 메서드와 동일한 매개 변수 타입과 개수가 있는 생성자를 찾아 실행
 
  */
+
+// Member.java - ConstructorRef.java
 public class ConstructorRef {
     public static void main(String[] args) {
         Function<String, Member> function1 = Member::new;

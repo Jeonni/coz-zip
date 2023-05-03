@@ -1,4 +1,4 @@
-package section_01.java_심화_Effective;
+package section_01.java_심화_Effective.애너테이션_Annotation;
 
 public class OldClass {
     public static void main(String[] args) {
