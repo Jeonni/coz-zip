@@ -1,4 +1,4 @@
-package section_01.java_심화_Effective.스트림_Stream.스트림의_중간연산;
+package section_01.java_심화_Effective.스트림_Stream.스트림의_최종연산;
 
 import java.util.Arrays;
 
