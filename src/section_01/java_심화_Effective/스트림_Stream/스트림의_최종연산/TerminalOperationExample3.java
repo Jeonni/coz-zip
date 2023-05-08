@@ -15,7 +15,7 @@ public class TerminalOperationExample3 {
                 .map(element -> element * 2)
                 .reduce((a, b) -> a + b)
                 .getAsInt();
-        System.out.println("초기이 없는 reduce(): " + sum1);
+        System.out.println("초기값 없는 reduce(): " + sum1);
 
 
         // 초기값 있는 reduce()
