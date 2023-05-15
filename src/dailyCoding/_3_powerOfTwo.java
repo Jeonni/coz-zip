@@ -23,7 +23,6 @@ public class _3_powerOfTwo {
             while (powered < num) {
                 powered = powered * 2;
             }
-
             return powered == num;
         }
     }
