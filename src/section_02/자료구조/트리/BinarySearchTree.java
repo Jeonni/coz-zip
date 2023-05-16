@@ -75,7 +75,7 @@ class Solution {
             }
             if (root.data == data) return;   //중복일때 정지
 
-            Node currentNode = root;
+            Node currentNode = root; // 루트 노드
             Node parentNode = null;
 
             while (true) {
@@ -83,7 +83,7 @@ class Solution {
 
                 if (data < currentNode.getData()) { // 해당 노드보다 작을 경우
                     currentNode = currentNode.getLeft();
-                    if (currentNode == null) {
+                    if (currentNode == null) { // 비어있는 공간을 찾을 때까지 반복
                         parentNode.setLeft(newNode);
                         return;
                     } else if (currentNode.data == newNode.data) return;
