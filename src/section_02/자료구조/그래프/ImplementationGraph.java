@@ -72,17 +72,17 @@ class Solution {
     }
     public void addEdge(int from, int to) {
         if(from >= graph.length || to >= graph.length) return;
-        graph[from][to] = 1;
+        graph[from][to] = 1; // 엣지를 1 추가
     }
 
     public boolean hasEdge(int from, int to) {
-        if(from >= graph.length || to >= graph.length) return false;
-        else if(graph[from][to] == 1) return true;
-        else return false;
+        if(from >= graph.length || to >= graph.length) return false; // 예외 처리
+        else if(graph[from][to] == 1) return true; // 간선 있으면 TRUE
+        else return false; // 없으면 FALSE
     }
 
     public void removeEdge(int from, int to) {
         if(from >= graph.length || to >= graph.length) return;
-        graph[from][to] = 0;
+        graph[from][to] = 0; // 간선 삭제
     }
 }
