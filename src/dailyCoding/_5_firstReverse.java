@@ -1,9 +1,8 @@
 package dailyCoding;
 
-import java.io.BufferedWriter;
-import java.io.OutputStreamWriter;
-import java.io.StringWriter;
-
+/*
+문자열을 입력받아 순서가 뒤집힌 문자열을 리턴해야 합니다.
+ */
 public class _5_firstReverse {
     public static void main(String[] args) {
         String output = firstReverse("codestates");
