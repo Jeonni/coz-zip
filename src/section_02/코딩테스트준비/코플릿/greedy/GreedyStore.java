@@ -1,4 +1,4 @@
-package section_02.코딩테스트준비.greedy;
+package section_02.코딩테스트준비.코플릿.greedy;
 
 /*
 편의점에서 아르바이트를 하고 있는 중에, 하필이면 피크 시간대에 손님에게 거스름돈으로 줄 동전이 부족하다는 것을 알게 되었습니다.
@@ -19,6 +19,23 @@ public class GreedyStore {
 
     public static int partTimeJob(int k) {
         // TODO:
+        int coin[] = new int[]{500, 100, 50, 10, 5, 1};
+
+        int result = 0;
+        int i = 0;
+        while (k != 0) {
+            if (coin[i] / k >= 0) {
+                int sum = k / coin[i];
+                k -= coin[i] * sum;
+                result += sum;
+                i++;
+            }
+        }
+        return result;
+    }
+}
+
+/*
         int[] coin = new int[]{500, 100, 50, 10, 5, 1}; // 4000
         int result = 0; // 필요한 동전의 최솟값
 
@@ -30,5 +47,4 @@ public class GreedyStore {
             }
         }
         return result;
-    }
-}
+ */
