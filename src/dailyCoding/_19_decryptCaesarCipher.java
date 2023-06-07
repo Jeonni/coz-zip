@@ -3,7 +3,7 @@ package dailyCoding;
 public class _19_decryptCaesarCipher {
     public static void main(String[] args) {
         String output = decryptCaesarCipher("khoor zruog", 3);
-        System.out.println(output); // --> hello
+        System.out.println(output); // --> hello world
 
         output = decryptCaesarCipher("zruog", 3);
         System.out.println(output); // --> world
