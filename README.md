@@ -1,3 +1,3 @@
 # coz-zip
 
-Record what I studied at CodeStates!
+Record what I studied.. ⏳⌛
